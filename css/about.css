@@ -1,0 +1,51 @@
+.about-body {
+    width: 60%;
+    margin: 0 auto 4rem;
+    display: flex;
+    gap: 6rem;
+}
+
+.about-body h2 {
+    color: var(--main-text);
+    font-size: 2rem;
+}
+
+.about-body h3 {
+    color: var(--main-text);
+    font-size: 1.5rem;
+}
+
+.about-body p {
+    margin-bottom: 1rem;
+    color: var(--main-text);
+    font-size: 1.25rem;
+}
+
+.about-text {
+    width: 70%;
+}
+
+.about-image {
+    width: 30%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .about-body {
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .about-text {
+        width: 100%;
+    }
+    
+    .about-image {
+        width: 100%;
+    }
+
+}
